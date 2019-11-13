@@ -1,0 +1,45 @@
+﻿input {
+    font-size: 1em;
+    max-width: 300px;
+}
+
+table {
+    margin-top: 15px;
+}
+
+td {
+    border: 1px dotted #AAA;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+th {
+    color: #232F01;
+}
+
+.sideBox {
+    border: 1px solid gray;
+    font-size: 1.3em;
+    color: black;
+    margin-top: 5px;
+    padding: 15px;
+}
+
+#value {
+    background-color: #80b3d5;
+}
+
+#version {
+    background-color: #d77d80;
+}
+
+.error {
+    color: #A00;
+    text-align: left;
+    background-color: #FEE;
+    border: 2px solid #A00;
+    padding: 15px;
+    text-align: center;
+    margin: 5px 0;
+    border-radius: 10px;
+}

@@ -1,0 +1,41 @@
+﻿doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/main.css')
+    link(rel='stylesheet', href='/stylesheets/custom.css')
+  body
+    #wrapper
+        #header
+            #logo
+                h1: a(href='#') ProfitCalcJS
+                h2 BuildMaster Node.js+Express Demo
+            #menu
+                ul
+                    li.active: a(href='#') Calculator
+                    li: a(href='#') Accounts
+                    li: a(href='#') Contact
+                    li: a(href='#') Help
+        #page
+            #page-bgtop
+                #content
+                    block content
+                #sidebar
+                    ul
+                        li
+                            h2 Navigation
+                            ul
+                                li: a(href='#') Profit Calculator
+                                li: a(href='#') Accounts Listing
+                                li: a(href='#') Contact Us
+                                li: a(href='#') Privacy Policy
+                                li: a(href='#') Help
+                    #value.sideBox Configuration value:
+                        br
+                        strong #{configValue}
+                    #version.sideBox Version:
+                        strong #{version}
+                div(style='clear: both; height: 1px')
+        #footer
+            p#legal Copyright &copy; 2007 Clean Type. All Rights Reserved. Designed by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>.
+            p#links <a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a>

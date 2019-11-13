@@ -1,0 +1,33 @@
+﻿extends layout
+
+block content
+    .post
+        h2.title Profit Calculator
+
+        if error
+            .error= error
+
+        form(action='/' method='POST')
+            table
+                thead
+                    tr
+                        th Line Item
+                        th Amount
+                tbody
+                    tr
+                        td Revenue
+                        td
+                            input(name='revenue' type='text' value=revenue)
+                    tr
+                        td Expenses
+                        td
+                            input(name='expenses' type='text' value=expenses)
+                    tr
+                        td Net Profit
+                        td= net
+            br
+            input(name='submit' type='submit')
+    .post
+        .entry
+            p: img(src='/images/calc.jpg')
+            
