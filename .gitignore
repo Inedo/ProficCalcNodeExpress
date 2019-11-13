@@ -59,3 +59,11 @@ typings/
 
 # next.js build output
 .next
+
+src/.vs
+src/Visual Studio*
+src/ProfitCalc.Web/bin
+src/ProfitCalc.Web/obj
+**.js
+**.js.map
+
